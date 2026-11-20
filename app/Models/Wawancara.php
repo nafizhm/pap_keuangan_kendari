@@ -1,0 +1,39 @@
+<?php
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Wawancara extends Model
+{
+    protected $table = 'wawancara';
+    public $timestamps = false;
+
+    protected $fillable = [
+        'tgl_wawancara',
+        'nama_petugas',
+        'tanggal_masuk_bank',
+        'petugas_bank',
+        'tanda_terima_bank',
+        'tindak_lanjut_bank',
+        'tanggal_tindak_lanjut_bank',
+        'id_customer',
+        'catatan_wawancara',
+        'status',
+        'id_bank_kpr'
+    ];
+
+    public function customer()
+    {
+        return $this->belongsTo(Customer::class, 'id_customer');
+    }
+
+    public function bankKPR()
+    {
+        return $this->belongsTo(BankKPR::class, 'id_bank_kpr');
+    }
+
+    public function wawancaraSp3k()
+    {
+        return $this->hasMany(WawancaraSp3k::class, 'id_wawancara');
+    }
+}

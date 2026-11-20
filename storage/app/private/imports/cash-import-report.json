@@ -1,0 +1,180 @@
+{
+    "counts": {
+        "pemasukan": 2064,
+        "pengeluaran": 5474
+    },
+    "unmapped": {
+        "BK": 2,
+        "(kosong)": 8,
+        "WORKSHOP": 3,
+        "BTN AIR": 11,
+        "BTNK AIR": 273,
+        "VOUCHER": 9,
+        "IIB": 1,
+        "BPD ADI PUTRA": 1
+    },
+    "classification": {
+        "3100": 6,
+        "4100": 1044,
+        "4400": 10,
+        "6100": 296,
+        "6500": 97,
+        "6300": 398,
+        "4200": 177,
+        "6600": 42,
+        "5100": 206,
+        "4999": 435,
+        "1191": 107,
+        "5999": 3663,
+        "6200": 220,
+        "1192": 121,
+        "6400": 431,
+        "4300": 285
+    },
+    "reconciliation": "passed",
+    "skipped": [
+        {
+            "row": 2459,
+            "reason": "Nominal kosong\/nol",
+            "cells": {
+                "B": "46086",
+                "C": "GR",
+                "D": "BIAYA AKAD GAR 3 A.N. ASRIAWATI",
+                "F": "0"
+            }
+        },
+        {
+            "row": 7168,
+            "reason": "Nominal kosong\/nol",
+            "cells": {
+                "B": "46281",
+                "C": "BPD ADI PUTRA",
+                "D": "PEMBAYARAN RUMAH CASH GAR 3 BLOK D1 NO 10 A.N. YUSUF FARDAN"
+            }
+        },
+        {
+            "row": 7367,
+            "reason": "Nominal kosong\/nol",
+            "cells": {
+                "B": "46296",
+                "C": "IB"
+            }
+        },
+        {
+            "row": 7368,
+            "reason": "Nominal kosong\/nol",
+            "cells": {
+                "B": "46296",
+                "C": "IB"
+            }
+        },
+        {
+            "row": 7499,
+            "reason": "Nominal kosong\/nol",
+            "cells": {
+                "B": "46302",
+                "C": "PC",
+                "D": "KONSUMSI KANTOR : TAMU BOS"
+            }
+        }
+    ],
+    "warnings": [
+        {
+            "row": 731,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 1813,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 2570,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 2571,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 2572,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 2573,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 2860,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 2958,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 3036,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 3114,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 3404,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 4462,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 4483,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 4585,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 5305,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 5426,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 6326,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 6451,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 6452,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 6522,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 6935,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 7364,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 7365,
+            "reason": "Keterangan kosong"
+        },
+        {
+            "row": 7366,
+            "reason": "Keterangan kosong"
+        }
+    ],
+    "sha256": "9a7082bc27ba70b64d1fe6bac0c93eeb0609d0173864d8ba339c73b0b066e074"
+}
